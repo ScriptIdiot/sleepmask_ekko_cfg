@@ -14,7 +14,9 @@ All credits to [@Icebreaker](https://github.com/IcebreakerSecurity)
         return;
     }
 ```
-4. Compile
+4. Put cfg.c in folder
+5. Append the contents in bofdefs.h
+6. Compile
 
 ## Reference
 1. https://github.com/IcebreakerSecurity/Ekko_CFG_Bypass
