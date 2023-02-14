@@ -19,7 +19,7 @@ All credits to [@Icebreaker](https://github.com/IcebreakerSecurity)
 6. Compile
 
 ## Caveat
-1. Sleep 0 will terminate the process, meaning that socks cannot be used
+1. Sleep 0 will terminate the process, meaning that socks cannot be used (However, if interactive process is needed, its pointless to use ekko, just revert back to use original sleep)
 
 ## Reference
 1. https://github.com/IcebreakerSecurity/Ekko_CFG_Bypass
