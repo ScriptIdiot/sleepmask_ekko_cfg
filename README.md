@@ -18,5 +18,8 @@ All credits to [@Icebreaker](https://github.com/IcebreakerSecurity)
 5. Append the contents in bofdefs.h
 6. Compile
 
+## Caveat
+1. Sleep 0 will terminate the process, meaning that socks cannot be used
+
 ## Reference
 1. https://github.com/IcebreakerSecurity/Ekko_CFG_Bypass
