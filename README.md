@@ -9,6 +9,7 @@ All credits to [@Icebreaker](https://github.com/IcebreakerSecurity)
 3. Add below codes before ekko sleep
 ```
    PVOID NtContinue = KERNEL32$GetProcAddress(KERNEL32$GetModuleHandleA("ntdll.dll"),"NtContinue");
+   //PVOID NtContinue = NTDLL$NtContinue; //<-- this should be the same as above
    if (!markCFGValid_nt(NtContinue))
     {
         return;
